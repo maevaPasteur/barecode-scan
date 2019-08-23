@@ -1,0 +1,41 @@
+body {
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: .5px;
+}
+header {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	border-bottom: solid 1px #000;
+}
+.container-scanner {
+	padding: 20px 10px;
+}
+h4 {
+	padding-bottom: 20px;
+}
+.error-msg-scanner {
+	color: red;
+}
+
+
+#interactive.viewport {
+	position: relative;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+}
+#interactive.viewport > canvas, #interactive.viewport > video {
+	max-width: 100%;
+	width: 100%;
+}
+canvas.drawing, canvas.drawingBuffer {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+

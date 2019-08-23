@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>SnapShop - EAN reader based on QUAGGA</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<header>HEADER</header>
+
+<div class="container-scanner">
+	<h4 class="modal-title">Barcode Scanner</h4>
+	<a class="link-product" href="product.html"></a>
+	<p class="error-msg-scanner" style="display:none">Désolé, pour utiliser cette fonctionnalité vous devez pocéder un smartphone récent.</p>
+	<div class="item-scanner" style="position: static">
+		<div id="interactive" class="viewport"></div>
+	</div>
+</div>
+
+<script src='https://a.kabachnik.info/assets/js/libs/quagga.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
